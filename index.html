@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start img section  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mt-5">
+                <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg">
+            </div>
+            <!-- end img section  -->
+            <!-- start head section  -->
+            <div class="col-md-6 m-auto text-center">
+                <h2 class="text-center">create acount </h2>
+                <pre>Go ahead and sign up,let every one know
+    how awesome you are!</pre>
+                <!-- end header section  -->
+                    <!-- start form-->
+                    <form action="create.html" method="post"  onsubmit="return account()">
+                    <h5 class="bg-danger text-white" id="result" ></h5>
+
+                        <!-- user input  -->
+                        <div class="bg-light mb-3">
+                          <input type="text" id="user" class="form-control"  placeholder="username"/>
+                        </div>
+                    <!-- Email input -->
+                    <div class="bg-light mb-3">
+                      <input type="text" id="mail" class="form-control" placeholder="Email" />
+                    </div>
+                      <!-- password input  -->
+                    <div class="bg-light mb-3">
+                      <input type="password" id="pass" class="form-control"  placeholder="password"/>
+                    </div>
+                      <!-- confirm pass input  -->
+                    <div class="bg-light mb-3">
+                      <input type="password" id="confirm" class="form-control"  placeholder=" confirm password"/>
+                        </div>
+                      <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block p-3">create acount</button>
+                  </form>
+            </div>
+
+        </div>
+    </div>
+<!-- end form section  -->
+
+<script src="js/mdb.umd.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
